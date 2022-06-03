@@ -1,0 +1,421 @@
+/* ======================= NAVBAR ==========================*/
+
+/* ======================= NAVBAR END ==========================*/
+
+/*======================= HEADER OF PAGE =======================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Libre+Baskerville&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+#header .container {
+    height: 100vh;
+    position: relative;
+    margin: auto;
+    padding: auto!important;
+    z-index: 0;
+}
+
+#header .content-row {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    z-index: 0;
+}
+
+#header .container .content-row .left-col, .container .content-row .right-col {
+    flex-basis: 50%;
+    z-index: 0;
+}
+
+#header .container .content-row .left-col {
+    padding: 50px 0;
+    z-index: 0;
+}
+
+#header .container .content-row .left-col hr {
+    width: 160px;
+    height: 4px;
+    background: #2a88e0;
+    margin: 30px 0;
+    border: none;
+}
+
+#header .container .content-row .left-col h1 {
+    font-size: 38px;
+    color: #000;
+    font-family: 'Arvo', serif;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 2px;
+    z-index: 0;
+}
+
+#header .container .content-row .left-col p {
+    color: rgb(53, 50, 50);
+    margin: 30px 0;
+    font-family: 'Amiri', serif;
+    font-size: 19px;
+    line-height: 22px;
+    z-index: 0;
+}
+
+#header .container .content-row .left-col .indicator {
+    display: flex;
+}
+
+#header .container .content-row .left-col .more {
+    position: relative;
+    border: none;
+    height: 48px;
+    width: 150px;
+    outline: none;
+    font-family: 'Arvo', serif;
+    font-family: 'Libre Baskerville', serif;
+    background: #2990ff;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 20px;
+    border-radius: 40px;
+}
+
+#header .container .content-row .left-col .more:hover {
+    transition: 0.3s;
+    background: #007afd;
+}
+
+#header .container .content-row .right-col img {
+    width: 100%;
+    height: 400px!important;
+    padding: 00px;
+}
+
+@media (max-width: 530px) {
+    #header .content-row {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 800px) {
+    #header .container .content-row .right-col {
+        display: none;
+    }
+    #header .container .content-row .left-col {
+        flex-basis: 100%!important;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+/*======================= CONTENT OF PAGE =======================*/
+
+#content .container .row .col-md-6 .row h1 {
+    font-family: 'Arvo', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 38px;
+}
+
+#content .container .row .col-md-6 .row p {
+    font-family: 'Amiri', serif;
+    font-size: 20px;
+}
+
+#content .container .row .col-md-6 .row .col .content-search, .content-registar {
+    outline: none;
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    font-family: 'Amiri', serif;
+    background-color: #2990ff;
+    border-radius: 20px;
+    color: white;
+    padding: 2px;
+}
+
+#content .container .row .col-md-6 .row .col .content-search:hover, .content-registar:hover {
+    background-color: #007afd;
+    transition: 0.3s;
+}
+
+/*======================= CONTENT OF PAGE END =======================*/
+
+/*======================= HEADER OF PAGE END =======================*/
+
+/*======================= SERVICES =======================*/
+
+#services .content .head p {
+    color: #666;
+    font-family: 'Amiri', serif;
+    font-size: 23px;
+}
+
+#services .container .col-md-6 .content p {
+    font-family: 'Amiri', serif;
+    font-size: 23px;
+    text-transform: lowercase;
+}
+
+#services .container .col-md-6 .content p::first-letter {
+    text-transform: uppercase;
+}
+
+#services .container .col-md-6 .content h3 {
+    font-family: 'Arvo', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    /* text-transform: lowercase; */
+}
+
+#services .row .col-md-6 {
+    text-align: center;
+    margin-bottom: 50px;
+    /* font-family: 'Amiri', serif; */
+}
+
+#services .row .col-md-6:hover {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+}
+
+#services .img img {
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 400px) {
+    #services .img img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/*======================= SERVICES END=======================*/
+
+/*======================= FEEDBACK =======================*/
+
+#feedbak .container {
+    width: 100%
+}
+
+#feedback .container .mainbox .text hr {
+    height: 4px;
+    border-radius: 20px;
+    width: 120px;
+    background: #0078f1;
+    border: none;
+}
+
+#feedback .container .mainbox .text h2 {
+    font-family: 'Arvo', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
+    /* text-transform: lowercase; */
+}
+
+#feedback .container .mainbox {
+    display: table;
+    margin: 5rem auto;
+    background-color: white;
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    z-index: 2;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#feedback .container .mainbox .box input, textarea {
+    border: 1px solid rgb(206, 203, 206);
+    outline: none;
+    border-radius: 3px;
+    color: rgb(90, 89, 89);
+    font-family: 'Amiri', serif;
+    padding-left: 20px;
+    height: 38px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+#feedback .container .mainbox .box textarea {
+    height: 120px;
+    font-family: 'Amiri', serif;
+    color: rgb(90, 89, 89);
+}
+
+#feedback .container .mainbox .box input:hover, textarea:hover {
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+#feedback .container .mainbox .box input[type="submit"] {
+    background: #0078f1;
+    height: 60px;
+    border-radius: 35px;
+    font-family: 'Arvo', serif;
+    font-family: 'Libre Baskerville', serif;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+
+#feedback .container .mainbox .box input[type="submit"]:hover {
+    background-color: #3391ee;
+}
+
+@media (max-width: 780px) {
+    #feedback .container .mainbox {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    #feedback .container .mainbox {
+        width: 100%;
+    }
+    #feedback .container .mainbox .text h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:400px) {
+    #feedback .container .mainbox .box input[type="submit"] {
+        font-size: 25px;
+    }
+}
+
+/*======================= FEEDBACK END=======================*/
+
+/*======================= FOOTER =======================*/
+
+footer {
+    background: #f1f1f1;
+    padding: 90px 0;
+    margin-top: 100px;
+    font-family: 'Amiri', serif;
+}
+
+footer .footer-container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%!important;
+    flex-wrap: wrap-reverse;
+}
+
+footer .row {
+    width: 100%;
+}
+
+footer .logo {
+    width: 180px;
+}
+
+footer .social-media {
+    margin: 20px 0;
+}
+
+footer .social-media a {
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+footer .social-media a:hover {
+    color: #0078f1;
+}
+
+footer .use-link ul li a {
+    color: black;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Amiri', serif;
+}
+
+footer .use-link ul li a:hover {
+    color: #0078f1;
+    transition: 0.3s;
+}
+
+footer .border {
+    width: 100px;
+    height: 4px;
+    background: #0078f1;
+}
+
+footer .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .txtb {
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+
+footer .btn {
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #0078f1;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    transition: opacity .3s linear;
+}
+
+footer .btn:hover {
+    opacity: .7;
+}
+
+footer .page-content {
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:960px) {
+    footer .col-md-4 {
+        margin-bottom: 50px;
+    }
+}
+
+/*======================= FOOTER END=======================*/
